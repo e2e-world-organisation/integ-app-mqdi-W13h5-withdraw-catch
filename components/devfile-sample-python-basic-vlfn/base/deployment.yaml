@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-vlfn
     spec:
       containers:
-      - image: quay.io/quay-or-not-to-quay/integration-e2e-tenant/integ-app-mqdi/devfile-sample-python-basic-vlfn@sha256:68ea759ec64c1f6dc856a29cba854520825f54347269c09167f3052dd65736bc
+      - image: quay.io/redhat-appstudio/sample-image@sha256:841328df1b9f8c4087adbdcfec6cc99ac8308805dea83f6d415d6fb8d40227c1
         name: my-python
         ports:
         - containerPort: 8081
